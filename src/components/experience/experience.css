@@ -1,0 +1,138 @@
+.experience {
+  height: auto;
+  width: 100vw;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #f3efe0;
+}
+
+.section-exp {
+  width: 50%;
+}
+.section-edu {
+  width: 50%;
+}
+
+@media only screen and (max-width: 1250px) {
+  .row {
+    flex-direction: column;
+  }
+  .section-edu {
+    width: 100% !important;
+  }
+  .section-exp {
+    width: 100% !important;
+  }
+  .box {
+    position: relative;
+    right: 20px;
+    padding: 10px 0 40px 60px;
+    width: 120%;
+  }
+}
+
+.box {
+  max-width: 500px;
+  overflow: hidden;
+  padding: 10px 0 40px 60px;
+}
+
+.box ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  transition: all 0.5s linear;
+}
+
+.box ul:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  border: 1px dashed #d9d7cb;
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+.box ul li {
+  margin: 20px 60px 60px;
+  position: relative;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.3);
+  color: #333;
+  border-radius: 10px;
+  line-height: 20px;
+}
+
+.box ul li > span {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  border: 1px solid #d9d7cb;
+  position: absolute;
+  top: 0;
+  left: -30px;
+}
+
+.box ul li > span:before,
+.box ul li > span:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #22a39f;
+  border: 2px solid #8a8779;
+  position: absolute;
+  left: -7.5px;
+}
+
+.box ul li > span:before {
+  top: -10px;
+}
+.box ul li > span:after {
+  top: 95%;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #22a39f;
+}
+.info {
+  font-weight: 700;
+  font-size: 15px;
+}
+.desc {
+  font-size: 12px;
+}
+
+.box .time span {
+  position: absolute;
+  left: -100px;
+  color: #22a39f;
+  font-size: 80%;
+  font-weight: bold;
+}
+.box .time span:first-child {
+  top: -16px;
+}
+.box .time span:last-child {
+  top: 94%;
+}
+
+.education-wrapper {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.education-wrapper > .desc {
+  padding-bottom: 10px;
+}
+.education-wrapper > .info {
+  padding-bottom: 5px;
+}
