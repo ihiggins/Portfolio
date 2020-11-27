@@ -1,7 +1,7 @@
 .experience {
   height: auto;
   width: 100vw;
-
+  overflow-x: hidden;
   padding-top: 60px;
   padding-bottom: 60px;
   background: #f3efe0;

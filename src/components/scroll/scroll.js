@@ -2,7 +2,8 @@ import styles from "./scroll.module.css";
 
 function Scroll() {
   return (
-    <div class={styles.scroll}>
+    <div className={styles.scroll}>
+       {/*eslint-disable-next-line*/}
       <a>
         <span></span>
       </a>
