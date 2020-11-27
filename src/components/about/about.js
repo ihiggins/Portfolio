@@ -15,10 +15,11 @@ export function About() {
 
             <h3 className="section-heading">About</h3>
             <p className="section-text">
-              Hi, Im an Information Technology major at Umass Boston. But in my
-              spare time im learning how to build web apps. Im most experienced
-              with using a MERN stack to build applications, and im hoping to
-              find an opportunity to challenge and expand my skill set.{" "}
+              Hi, I am an Information Technology major at Umass Boston. But in
+              my spare time, I'm learning how to build web apps. I'm most
+              experienced with using a MERN stack to build applications, and I
+              am hoping to find an opportunity to challenge and expand my skill
+              set.{" "}
             </p>
           </div>
           <div className="section-icon"></div>
