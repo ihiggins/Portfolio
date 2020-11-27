@@ -1,7 +1,7 @@
 import "./about.css";
 export function About() {
   return (
-    <div className="about" id='about'>
+    <div className="about" id="about">
       <div className="wrapper">
         <h2 className="title">Profile</h2>
         <p className="subTitle">Im learning full-stack</p>
@@ -15,8 +15,10 @@ export function About() {
 
             <h3 className="section-heading">About</h3>
             <p className="section-text">
-            Hi, Im an Information Technology major at Umass Boston. But in my spare time im learning how to build web apps. Im most experienced with using a MERN stack to build applications, and im hoping to find an opportunity to challenge and expand my skill set.
- {" "}
+              Hi, Im an Information Technology major at Umass Boston. But in my
+              spare time im learning how to build web apps. Im most experienced
+              with using a MERN stack to build applications, and im hoping to
+              find an opportunity to challenge and expand my skill set.{" "}
             </p>
           </div>
           <div className="section-icon"></div>
@@ -38,16 +40,13 @@ export function About() {
                       <span className="chart__label">NodeJS</span>
                     </li>
                     <li className="chart__bar" style={{ width: "92%" }}>
-                      <span className="chart__label">
-                      ReactJS
-                      </span>
+                      <span className="chart__label">ReactJS</span>
                     </li>
                     <li className="chart__bar" style={{ width: "82%" }}>
                       <span className="chart__label">MongoDB</span>
                     </li>
                     <li className="chart__bar" style={{ width: "73%" }}>
-                      <span className="chart__label">Angular
-                      </span>
+                      <span className="chart__label">Angular</span>
                     </li>
                     <li className="chart__bar" style={{ width: "83%" }}>
                       <span className="chart__label">Python</span>
@@ -59,9 +58,7 @@ export function About() {
                       <span className="chart__label">HTML</span>
                     </li>
                     <li className="chart__bar" style={{ width: "88%" }}>
-                      <span className="chart__label">
-                        CSS
-                      </span>
+                      <span className="chart__label">CSS</span>
                     </li>
                   </ul>
                 </div>
