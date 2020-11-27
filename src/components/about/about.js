@@ -4,7 +4,7 @@ export function About() {
     <div className="about" id="about">
       <div className="wrapper">
         <h2 className="title">Profile</h2>
-        <p className="subTitle">Im learning full-stack</p>
+        <p className="subTitle">I'm learning full-stack</p>
         <hr></hr>
 
         <div className="row">
