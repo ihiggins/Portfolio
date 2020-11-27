@@ -20,7 +20,7 @@
   height: 30px;
   width: 30px;
   position: fixed;
-  z-index: 100;
+  z-index: 1000;
   left: 50px;
   top: 30px;
   cursor: pointer;
