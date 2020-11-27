@@ -10,7 +10,7 @@ export function About() {
         <div className="row">
           <div className="section-about">
             <div className="icon-wrapper">
-              <img className="icon" src="./img/me.jpg"></img>
+              <img className="icon" alt="me" src="./img/me.jpg"></img>
             </div>
 
             <h3 className="section-heading">About</h3>

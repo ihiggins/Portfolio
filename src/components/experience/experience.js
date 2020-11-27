@@ -23,15 +23,11 @@ export function Experience() {
                 <li>
                   <span></span>
                   <div class="heading">Voya Finanical</div>
-                  <div class="info">It Developer intern</div>
+                  <div class="info"> Software Development Intern</div>
                   <div class="desc">
                     {" "}
-                    + Created budget and product estimation tools with Angular
-                    and Node Js to streamline the development process.
-                    <br></br>+ Build and run A/B tests redesigning large
-                    client’s web portals. <br></br>+ Implemented various
-                    features and bug fixes across a web application with Java
-                    spring boot and Drupal.
+                    + Created a  project/cost estimation tool with Angular and Node Js to cut down on the time it took to estimate the scope of a project.
+                    <br></br>+ Implemented and ran A/B tests on new designs for specific client’s web portals. <br></br>+ Assisted with various features and bug fixes across a web application built with Java spring boot and Drupal.
                   </div>
                   <div class="time">
                     <span>Aug, 2020</span>
@@ -41,23 +37,19 @@ export function Experience() {
                 <li>
                   <span></span>
 
-                  <div class="heading">JOB ONE</div>
-                  <div class="info">the best animation</div>
+                  <div class="heading">Virtuverse</div>
+                  <div class="info">Back End Developer Intern</div>
                   <div class="desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
+                    {" "}
+                    + Built an authentication system with Node JS based on Json Web Tokens.<br></br>
+                    + Assisted in creating and querying SQL databases to store and query user information. <br></br>
+                    + Helped create RESTful API servers to handle network clients.
                   </div>
                   <div class="time">
                     <span>
-                      JUN, 29<sup>th</sup>
+                    Mar, 2019
                     </span>
-                    <span>11:36 AM</span>
+                    <span>Jan, 2019</span>
                   </div>
                 </li>
               </ul>

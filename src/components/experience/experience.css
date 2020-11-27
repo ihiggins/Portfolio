@@ -107,6 +107,7 @@
 .info {
   font-weight: 700;
   font-size: 15px;
+  padding-bottom: 5px;
 }
 .desc {
   font-size: 12px;
