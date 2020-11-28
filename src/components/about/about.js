@@ -52,8 +52,8 @@ export function About() {
                     <li className="chart__bar" style={{ width: "83%" }}>
                       <span className="chart__label">Python</span>
                     </li>
-                    <li className="chart__bar" style={{ width: "88%" }}>
-                      <span className="chart__label">jQuery</span>
+                    <li className="chart__bar" style={{ width: "67%" }}>
+                      <span className="chart__label">AWS</span>
                     </li>
                     <li className="chart__bar" style={{ width: "96%" }}>
                       <span className="chart__label">HTML</span>
